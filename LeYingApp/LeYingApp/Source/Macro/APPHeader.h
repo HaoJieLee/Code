@@ -19,6 +19,7 @@
 #define ConMid CGRectGetWidth(self.view.frame) / 2 - CGRectGetWidth(self.artistNameLable.frame) - 10
 
 #define myurl @"http://leying.hivipplus.com/new_leying/index.php/api"
+//#define myurl @"http://api.leychina.com/index.php/api"
 #define QI_NIU @"http://o7rqw6rro.bkt.clouddn.com/"
 #define  lsUserCookie @"lsUserCookie"
 // 注册头文件
