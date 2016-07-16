@@ -1,0 +1,41 @@
+//
+//  leyingPCH.pch
+//  LeYingApp
+//
+//  Created by sks on 15/12/9.
+//  Copyright © 2015年 sks. All rights reserved.
+//
+
+#ifndef leyingPCH_pch
+#define leyingPCH_pch
+
+
+#import "APPHeader.h"
+#import "IMPHeader.h"
+#import "KEYHeader.h"
+#import "URLHeader.h"
+#import "Factory.h"
+#import "SingletonRequest.h"
+#import "loginModel.h"
+
+
+#import "UIView+XD.h"
+
+//#define POST @"POST"
+
+#define SCREEN_WIDTH self.view.bounds.size.width
+#define SCREEN_HEIGHT self.view.bounds.size.height
+
+#define WIDTH_SCNE self.view.bounds.size.width/375
+#define HEIGHT_SCNE self.view.bounds.size.height/640
+//适配
+#define iPhone6p ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define iPhone4s ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+
+
+#endif /* leyingPCH_pch */
